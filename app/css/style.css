@@ -1,0 +1,278 @@
+body{
+      background-color: rgb(244, 245, 247);
+}
+
+#container{
+background-color: #ffffff;
+
+}
+
+#container-content{
+  padding-top:20px;
+
+}
+
+.container-fluid {
+    padding-right: 0px;
+     padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#navbar{
+background-color: rgb(55,97 ,147);
+}
+
+.glyphicon
+{
+  margin-right:10px;
+}
+
+a .icon::before{
+    content: url(77045.png);
+}
+
+.nav navbar-nav{
+color: white;
+  }
+
+.btn{
+display: inline-block;
+padding: 10px 45px;
+font-size:12px;
+text-align: center;
+cursor: pointer;
+margin-bottom: 10px;
+}
+
+.btn-default {
+    color: rgb(156,160,164);
+    background-color: #fff;
+    border-color: rgb(230,230,230);
+}
+
+.red{
+  background-color:red;
+  color:white;
+}
+
+.input_container{
+  display:inline;
+}
+
+.form-control{
+  display:inline-block;
+  width:150px;
+  height:26px;
+  padding:6px 15px;
+  font-size:13px;
+  color:#555;
+  border: 1px solid #ccc;
+  border-radius:4px;
+}
+
+
+#btnWrap{
+  float:right;
+}
+
+#btnWrap:after{
+  display:block;
+  clear:both;
+  content:"";
+}
+
+.export{
+  width: 150px;
+  height: 26px;
+  padding:3px 15px;
+  font-size:13px;
+  background-color: grey;
+  float:right;
+  clear:both;
+  color:white;
+  border-radius: 6px;
+}
+
+#container-content{
+ background-color: rgb(244, 245, 247);
+ padding: 20px 0;
+}
+
+.navbar-default .navbar-nav, .navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>.active>a{
+color:#FFF;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover
+{
+   background-color: rgb(42, 80, 117);
+   color: white;
+}
+
+table, th, td {
+    border: 1px solid rgb(222, 222, 205);
+    border-collapse: collapse;
+}
+
+table tr:hover{
+  background-color: rgb(238,238,238);
+
+}
+
+#table_input{
+ padding-top: 20px;
+}
+
+#table_input table{
+  width: 95%;
+  margin: 0 auto;
+  border-collapse:separate;
+      border: solid  rgb(256,257,259) 1px;
+      border-radius:6px;
+      -moz-border-radius:6px;
+}
+
+hr.style-one {
+    border: 0;
+    height: 1px;
+    /*background: white;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);*/
+}
+hr{
+  margin-top: 0px;s
+  width: 100%;
+}
+
+.line{
+
+  background: rgb(256,257,259);
+}
+
+.form_input{
+      border: 1px solid rgb(234, 234, 225);
+      padding:10px;
+      margin: 0 auto;
+      width:95%;
+}
+
+#buttons-container {
+ /*margin: 0 auto; */
+width: 100%;
+padding: 0 15px;
+ /*margin-left: 30px;*/
+}
+
+.point{
+margin-right:10px;
+display:inline-block;
+}
+
+span.amp{
+ color: grey;
+}
+
+.name{
+  color: rgb(128,167,186);
+  padding: 7px;
+}
+
+
+th{
+      color: rgb(164,174,183);
+      text-align: left;
+    padding: 10px;
+}
+
+.date{
+  color:rgb(148,149,151);
+  padding: 7px;
+}
+
+
+span.cb{
+    color: rgb(164,174,183);
+}
+
+
+table tr td:first-child{
+  text-align: center;
+}
+
+table tr:first-child{
+  background-color: lightgrey;
+}
+
+span.delete{
+   float:right;
+  color: grey;
+  background-color: white;
+  width:15px;
+  height:15px;
+  border-radius:30%;
+  text-align:center;
+  line-height: 15px;
+
+}
+
+
+input[tyoe=text]{
+  padding: 5px;
+  border: 2px solid black;
+  margin: 2px;
+
+}
+/*============================ For modal ===============================================*/
+
+.ng-modal-overlay {
+  /* A dark translucent div that covers the whole screen */
+  position:absolute;
+  z-index:9999;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:#000000;
+  opacity: 0.8;
+}
+.ng-modal-dialog {
+  /* A centered div above the overlay with a box shadow. */
+  z-index:10000;
+  position: absolute;
+  /*width: 50%; /* Default */*/
+  width: 985px;
+    height: 160px;
+    padding-left: 20px;
+    /* background: rgba(255,255,255,.15); */
+    background: rgb(244, 245, 247)
+    color: black;
+  /* Center the dialog */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+
+  background-color: #fff;
+  box-shadow: 4px 4px 80px #000;
+}
+.ng-modal-dialog-content {
+  padding:10px;
+  text-align: left;
+}
+.ng-modal-close {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 120%;
+  display: inline-block;
+  font-weight: bold;
+  font-family: 'arial', 'sans-serif';
+}
+
+.button{
+  background: red;
+
+}
